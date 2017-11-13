@@ -1,5 +1,6 @@
 from numpy import *
 
+## 核函数化
 def kernelTrans(X, A, kTup): #calc the kernel or transform data to a higher dimensional space
     m,n = shape(X)
     K = mat(zeros((m,1)))
