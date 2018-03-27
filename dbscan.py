@@ -113,6 +113,9 @@ def main():
     plotFeature(dataSet, clusters, clusterNum)
 
 
+
+
+
 if __name__ == '__main__':
     start = time.clock()
     main()
